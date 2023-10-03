@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Fraiche";
+  src: url("/public/Fraiche.otf");
+}
+
+#header {
+  text-align: center;
+  font-size: 100px;
+  color: white;
+  font-family: "Fraiche";
+}
+
+.animation,
+.animation_layer {
+  height: 1000px;
+}
+
+.animation {
+  display: block;
+  position: relative;
+  z-index: 10;
+}
+
+.animation_layer {
+  background-position: bottom center;
+  background-size: auto 1038px;
+  background-repeat: repeat-x;
+  width: 100%;
+  position: absolute;
+}
+.animation_layer.parallax {
+  position: fixed;
+}
+
+#paw1 {
+  background-image: url("/paw1.png");
+}
+
+#paw2 {
+  background-image: url("/paw2.png");
+}
+
+#cat {
+  background-image: url("/cat.png");
+}
+
+placeholder-textarea::placeholder {
+  color: orange; /* Change this to your desired color */
+}
