@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Fraiche";
-  src: url("/public/Fraiche.otf");
+  src: url("/fonts/Fraiche.otf") format("opentype");
 }
 
 #header {
