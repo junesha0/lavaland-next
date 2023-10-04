@@ -24,7 +24,7 @@ function Form() {
             margin: "0 auto", // Center the form horizontally
           }}
         >
-          Enter
+          Not a scam
         </button>
       </div>
     </div>
